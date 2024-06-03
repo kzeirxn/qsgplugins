@@ -1,7 +1,7 @@
 from discord.ext import commands, tasks
 import aiohttp
 
-HEARTBEAT_URI = "https://status.qservices.cc/api/push/x8Sla8ESG5?status=up&msg=OK&ping=" 
+HEARTBEAT_URI = "https://status.qservices.cc/api/push/EWy8sqTbrW?status=up&msg=OK&ping=" 
 
 class Uptime_Status_Agent(commands.Cog):
     def __init__(self, bot):
